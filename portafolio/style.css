@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  h3 {
+    font-weight: normal;
+    margin: 0;
+  }
+  a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2e0ee9;
+    
+    font-size: 15px;
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* Estilos del encabezado */
+  header {
+    background-color: #443e97;
+    color: #070606;
+    padding: 10px;
+  }
+  header h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  header img {
+    display: block;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  } 
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  header nav li {
+    margin-right: 10rem;
+    display: block;
+  }
+  /* Estilos del contenido principal */
+  main {
+    column-count: 2;
+    margin: auto;
+    padding: 0px;
+    padding-left: 20px;
+  } 
+  section {
+    margin-bottom: 10rem;
+  }  
+  section h2 {
+    font-size: 20px;
+    
+  } 
+  section ul li {
+    margin-bottom: 5px;
+  }  
+  section ul li a {
+    color: #d3c011;
+    font-weight: bold;
+  }  
+  section ul li img {
+    margin-right: 10px;
+  }
+  section ul li h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  } 
+  /* Estilos del pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }  
+  footer p {
+    margin: 0;
+  } 
+  footer ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  } 
+  footer li {
+    margin-right: 20px;
+  } 
+  footer li:last-child {
+    margin-right: 0;
+  }
