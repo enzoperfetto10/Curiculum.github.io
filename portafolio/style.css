@@ -1,20 +1,26 @@
 /* Estilos generales */
 body {
     font-family: 'Segoe UI', sans-serif;
-    color: #333;
-    background-color: #f8f8f8;
-    margin: 0;
-    padding: 0;
+    margin: 0;   
+  }
+  h2{
+    color:#ad7373;
+    padding-top: 10px;
+    padding-left: 10px;
   }
   h3 {
-    font-weight: normal;
+    color:#727272;
+    font-size: 1rem;
     margin: 0;
+  }
+  li{
+    list-style: none;
   }
   a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #2e0ee9;
-    
-    font-size: 15px;
+    padding-left: 10px;
+    color: #3892ce;
+    font-size: 2rem;
     text-align: center;
   }
   img {
@@ -24,7 +30,7 @@ body {
   /* Estilos del encabezado */
   header {
     background-color: #443e97;
-    color: #070606;
+    color: #ffffff;
     padding: 10px;
   }
   header h1 {
@@ -75,22 +81,11 @@ body {
   } 
   /* Estilos del pie de página */
   footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #ad7373;
+    color: #ececec;
     padding: 20px;
     text-align: center;
   }  
   footer p {
-    margin: 0;
+    margin: auto;
   } 
-  footer ul {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-  } 
-  footer li {
-    margin-right: 20px;
-  } 
-  footer li:last-child {
-    margin-right: 0;
-  }
