@@ -1,36 +1,46 @@
 /* Estilos generales */
 body {
     font-family: 'Segoe UI', sans-serif;
-    margin: 0;   
+    margin: 0;
+  }
+  header img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+    transition: .5s ease;
+  }
+  header img:hover{
+    cursor: crosshair;
+    width: 200px;
+    opacity: 1;
+    filter: contrast(120%);
   }
   h2{
-    color:#ad7373;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#000000;
     padding-top: 10px;
     padding-left: 10px;
   }
-  h3 {
-    color:#727272;
-    font-size: 1rem;
-    margin: 0;
+  ul{
+    font: 1em sans-serif;
+    text-align:left;
   }
   li{
-    list-style: none;
+    list-style:armenian;
+    color: #000000;
   }
   a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-left: 10px;
-    color: #3892ce;
-    font-size: 2rem;
-    text-align: center;
+    font-size: 20px;
+    color: #1d45c7;
   }
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+
   /* Estilos del encabezado */
   header {
-    background-color: #443e97;
-    color: #ffffff;
+    background-color: hsl(224, 62%, 70%);
+    color: #000000;
     padding: 10px;
   }
   header h1 {
@@ -54,9 +64,8 @@ body {
   /* Estilos del contenido principal */
   main {
     column-count: 2;
-    margin: auto;
-    padding: 0px;
-    padding-left: 20px;
+    padding: 10px;
+    padding-left: 10px;
   } 
   section {
     margin-bottom: 10rem;
@@ -66,10 +75,10 @@ body {
     
   } 
   section ul li {
-    margin-bottom: 5px;
+    margin-bottom: 1px;
   }  
   section ul li a {
-    color: #d3c011;
+    color: #110ebb;
     font-weight: bold;
   }  
   section ul li img {
@@ -81,7 +90,7 @@ body {
   } 
   /* Estilos del pie de página */
   footer {
-    background-color: #ad7373;
+    background-color: hsl(224, 62%, 70%);
     color: #ececec;
     padding: 20px;
     text-align: center;
